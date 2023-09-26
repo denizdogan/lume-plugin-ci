@@ -12,7 +12,7 @@ on the frontpage of your website.
 Import and add the plugin to your Lume configuration as such:
 
 ```ts
-import ci from "https://deno.land/x/lume_plugin_ci@v0.0.1/mod.ts";
+import ci from "https://deno.land/x/lume_plugin_ci@v1.0.0/mod.ts";
 const site = lume();
 site.use(ci());
 export default site;

@@ -1,10 +1,10 @@
 import ci from "./mod.ts";
 import { defaultName } from "./constants.ts";
-import lume from "https://deno.land/x/lume@v1.10.4/mod.ts";
+import lume from "https://deno.land/x/lume@v1.19.0/mod.ts";
 import {
   assertExists,
   assertFalse,
-} from "https://deno.land/std@0.152.0/testing/asserts.ts";
+} from "https://deno.land/std@0.194.0/testing/asserts.ts";
 
 Deno.test("default name", () => {
   const site = lume();
